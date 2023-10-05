@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Custom CSS for the colored input field */
+        .custom-input {
+            border-color: #3498db; /* Border color */
+            background-color: #f2f2f2; /* Background color */
+            color: #333; /* Text color */
+        }
+
+        /* Custom CSS for the search icon */
+        .search-icon {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #3498db; /* Change the color as needed */
+            cursor: pointer;
+        }
+    </style>
+    <title>Colored Input Field</title>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="input-group">
+            <input type="text" class="form-control custom-input" placeholder="Search text">
+            <div class="input-group-append">
+                <span class="input-group-text search-icon">
+                    <i class="fa fa-search"></i> <!-- You can use any search icon here -->
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and jQuery (for optional features) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
